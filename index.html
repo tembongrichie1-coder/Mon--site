@@ -1,25 +1,155 @@
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site Web</title>
+    <title>Richie Tembong | Le Diamant Brut</title>
     <style>
-        body {
-            background-color: #0d1117;
-            color: #f0f6fc;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 50px;
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: #131b2e;
+            --red-accent: #ff2a2a;
+            --text-main: #f0f6fc;
+            --text-muted: #8b949e;
         }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
         h1 {
-            color: #ff5555;
+            color: var(--red-accent);
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid rgba(255, 42, 42, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .card h2 {
+            color: var(--red-accent);
+            font-size: 1.3rem;
+            margin-top: 0;
+            border-bottom: 1px solid rgba(255, 42, 42, 0.2);
+            padding-bottom: 8px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #d1d5db;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        th {
+            color: var(--red-accent);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Bienvenue sur mon site</h1>
-    <p>Le site est officiellement en ligne et configuré.</p>
+
+    <header>
+        <h1>Richie Tembong</h1>
+        <div class="subtitle">🎬 Le Diamant Brut du Divertissement & Architecte du Projet Prisme</div>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>✨ Identité & Vision</h2>
+            <p>Né le 27 juin 2004 en Nouvelle-Calédonie, Richie Tembong incarne l'alliance parfaite entre l'excellence artistique et la technologie de pointe. Seul et unique, il redéfinit les standards mondiaux du divertissement et de l'innovation numérique.</p>
+        </div>
+
+        <div class="card">
+            <h2>🌍 Réseau Sentinelle Rouge (Projet Prisme)</h2>
+            <p>Impact mondial en temps réel de l'infrastructure technologique :</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Zone Géographique</th>
+                        <th>Connexions Actives</th>
+                        <th>Statut</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Afrique</strong></td>
+                        <td>1,2 Milliard</td>
+                        <td>Optimal</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Asie-Pacifique</strong></td>
+                        <td>2,8 Milliards</td>
+                        <td>Sync 99%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Amériques</strong></td>
+                        <td>950 Millions</td>
+                        <td>Actif</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Europe</strong></td>
+                        <td>720 Millions</td>
+                        <td>Actif</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Richie Tom Bang. Tous droits réservés. Hégémonie numérique absolue.</p>
+    </footer>
+
 </body>
 </html>
-
