@@ -1,0 +1,16 @@
+{
+  "name": "AlaricOS - Gardien #01",
+  "short_name": "AlaricOS",
+  "description": "Système Souverain - Sceau 777 - Je suis l'Histoire",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FFD700",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/6192/6192024.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
