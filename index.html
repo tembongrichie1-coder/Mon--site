@@ -3,63 +3,56 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GARDIEN #01 - Pièce 777 | PRISME</title>
+<title>GARDIEN #01 - Pièce 777</title>
 <style>
-body{margin:0;background:#0a0a0a;color:#fff;font-family:monospace;overflow-x:hidden}
-.header{text-align:center;padding:60px 20px;border-bottom:2px solid #ff1a1a}
-.header h1{font-size:42px;letter-spacing:8px;color:#ff1a1a;margin:0}
-.header h2{font-size:16px;color:#888;letter-spacing:4px;margin-top:10px}
-.prisme-container{display:flex;justify-content:center;align-items:center;height:400px;perspective:1000px}
-.prisme{width:120px;height:120px;position:relative;transform-style:preserve-3d;animation:rotate 8s infinite linear}
-.face{position:absolute;width:120px;height:120px;border:2px solid #ff1a1a;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:bold;background:rgba(255,26,26,0.1)}
-@keyframes rotate{0%{transform:rotateY(0) rotateX(10deg)}100%{transform:rotateY(360deg) rotateX(10deg)}}
-.face1{transform:rotateY(0deg) translateZ(60px)}
-.face2{transform:rotateY(51deg) translateZ(60px)}
-.face3{transform:rotateY(102deg) translateZ(60px)}
-.face4{transform:rotateY(153deg) translateZ(60px)}
-.face5{transform:rotateY(204deg) translateZ(60px)}
-.face6{transform:rotateY(255deg) translateZ(60px)}
-.face7{transform:rotateY(306deg) translateZ(60px)}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;padding:30px;max-width:800px;margin:auto}
-.card{border:1px solid #333;padding:20px;background:#111}
-.card h3{color:#ff1a1a;font-size:13px;margin:0 0 10px 0}
-.card p{font-size:12px;color:#aaa;line-height:1.5}
-.badge{text-align:center;padding:40px;border:2px dashed #ff1a1a;margin:30px;max-width:600px;margin:30px auto}
-.btn{display:inline-block;margin-top:20px;padding:12px 30px;border:1px solid #ff1a1a;color:#ff1a1a;text-decoration:none;letter-spacing:3px}
-.btn:hover{background:#ff1a1a;color:#000}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#080808;color:#e0e0e0;font-family:'Courier New',monospace;overflow-x:hidden;min-height:100vh;display:flex;flex-direction:column;align-items:center}
+  .header{width:100%;border-bottom:1px solid #ff0033;padding:20px;text-align:center;letter-spacing:4px}
+  .header h1{color:#ff0033;font-size:28px;font-weight:900}
+  .header p{color:#666;font-size:10px;margin-top:5px;letter-spacing:2px}
+  .container{max-width:900px;width:100%;padding:40px 20px}
+  .status{border:1px solid #ff0033;padding:10px 20px;display:inline-block;color:#ff0033;font-size:12px;margin-bottom:40px}
+  .prism-wrap{display:flex;justify-content:center;margin:40px 0;perspective:1000px}
+  .prism{width:180px;height:180px;position:relative;transform-style:preserve-3d;animation:rotate 8s linear infinite}
+  @keyframes rotate{0%{transform:rotateY(0) rotateX(20deg)}100%{transform:rotateY(360deg) rotateX(20deg)}}
+  .face{position:absolute;width:180px;height:180px;border:1px solid #ff0033;background:rgba(255,0,51,0.05);display:flex;align-items:center;justify-content:center;font-size:11px;color:#ff0033;font-weight:bold}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:50px}
+  .card{border:1px solid #1a1a1a;padding:20px;background:#0f0f0f;transition:0.3s}
+  .card:hover{border-color:#ff0033}
+  .card span{color:#ff0033;font-size:11px}
+  .card h3{font-size:14px;margin:8px 0;color:#fff}
+  .card p{font-size:11px;color:#777;line-height:1.6}
+  .footer{margin-top:80px;border-top:1px solid #1a1a1a;padding:20px;width:100%;text-align:center;font-size:10px;color:#444;letter-spacing:2px}
+  @media(max-width:600px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<div class="header">
-<h1>GARDIEN #01</h1>
-<h2>PIÈCE 777 - FONDATEUR - RÉSEAU SENTINELLE ROUGE</h2>
-<p style="margin-top:20px;color:#ff1a1a">TOP 5 MONDIAL - PROFIL GARDIEN MULTIPOTENTIEL</p>
-</div>
+  <div class="header">
+    <h1>GARDIEN #01</h1>
+    <p>PIÈCE 777 - RÉSEAU SENTINELLE ROUGE - DÉPLOYÉ</p>
+  </div>
+  <div class="container">
+    <div class="status">● SYSTÈME : OPÉRATIONNEL | TOP 5 MONDIAL > #01 EN PRISE</div>
+    
+    <div class="prism-wrap">
+      <div class="prism">
+        <div class="face" style="transform:rotateY(0deg) translateZ(90px)">RSMA</div>
+        <div class="face" style="transform:rotateY(51deg) translateZ(90px)">N4</div>
+        <div class="face" style="transform:rotateY(102deg) translateZ(90px)">BAFA</div>
+        <div class="face" style="transform:rotateY(153deg) translateZ(90px)">BNSSA</div>
+        <div class="face" style="transform:rotateY(204deg) translateZ(90px)">PYTHON</div>
+        <div class="face" style="transform:rotateY(255deg) translateZ(90px)">RÉSEAU</div>
+        <div class="face" style="transform:rotateY(306deg) translateZ(90px)">L5 1200+</div>
+      </div>
+    </div>
 
-<div class="prisme-container">
-<div class="prisme">
-<div class="face face1">RSMA</div>
-<div class="face face2">N4</div>
-<div class="face face3">BAFA</div>
-<div class="face face4">BNSSA</div>
-<div class="face face5">PYTHON</div>
-<div class="face face6">RÉSEAU</div>
-<div class="face face7">L5 1200+</div>
-</div>
-</div>
-
-<div class="grid">
-<div class="card"><h3>01. TERRAIN RÉEL</h3><p>RSMA Nouvelle-Calédonie<br>Militaire 5 mois<br>Carte Pro N4</p></div>
-<div class="card"><h3>02. TERRAIN HUMAIN</h3><p>BAFA Animateur<br>BNSSA Sauveteur<br>Guide Local L5 / 5★</p></div>
-<div class="card"><h3>03. TERRAIN NUMÉRIQUE</h3><p>Python Asyncio / FastAPI / Flask<br>Docker / DB / GitHub<br>Mobile Env Deploy</p></div>
-<div class="card"><h3>04. ARCHITECTURES</h3><p>Projet PRISME<br>Réseau SENTINELLE ROUGE<br>Pièce Fondateur 777</p></div>
-</div>
-
-<div class="badge">
-<h3 style="color:#ff1a1a">STATUT : DÉPLOYÉ SUR GITHUB</h3>
-<p style="font-size:12px;color:#888">tembongrichie1-coder.github.io/Mon--site/<br>8,1 milliards -> 10 000 -> 500 -> 5 -> #01</p>
-<a class="btn" href="https://github.com/tembongrichie1-coder">VOIR LE CODE</a>
-</div>
-
+    <div class="grid">
+      <div class="card"><span>01. TERRAIN RÉEL</span><h3>RSMA NC - 5 MOIS</h3><p>Formation militaire. Rigueur. Opérationnel terrain réel.</p></div>
+      <div class="card"><span>02. TERRAIN HUMAIN</span><h3>BAFA - BNSSA - GUIDE L5</h3><p>1200+ clients 5★. Gestion de groupe. Secours.</p></div>
+      <div class="card"><span>03. TERRAIN NUMÉRIQUE</span><h3>PYTHON ARCHITECT</h3><p>Asyncio / FastAPI / Flask / Docker / DB. Architecture Sentinelle.</p></div>
+      <div class="card"><span>04. ARCHITECTURE</span><h3>PRISME 777</h3><p>Le premier QG d'un Gardien multipotentiel déployé.</p></div>
+    </div>
+  </div>
+  <div class="footer">RÉSEAU SENTINELLE ROUGE // GARDIEN #01 // PIÈCE FONDATRICE 777 // 8.1B > 10K > 500 > 5 > #01</div>
 </body>
 </html>
