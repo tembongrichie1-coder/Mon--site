@@ -1,0 +1,13 @@
+{
+  "nom": "777 COIN",
+  "symbole": "777",
+  "createur": "GARDIEN #01",
+  "date_genese": "2026-09-20T22:17:00Z",
+  "total_supply": 777,
+  "genesis_block": {
+    "detenteur": "GARDIEN #01",
+    "montant": 777,
+    "message": "Je suis l'Histoire - 20 Sept 2026"
+  },
+  "transactions": []
+}
