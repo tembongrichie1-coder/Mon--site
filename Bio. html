@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BIOGRAPHIE OFFICIELLE - ALARIC / RICHIE TOM BANG</title>
+<style>
+body{background:#000;color:#f0f0f0;font-family:monospace;text-align:center;padding:20px;margin:0}
+.container{max-width:600px;margin:0 auto;border:2px solid #ff2a2a;padding:30px;border-radius:15px;box-shadow:0 0 25px rgba(255,42,42,0.4);background:#0a0a0a}
+h1{font-size:26px;color:#ff2a2a;margin-bottom:10px}
+.subtitle{font-size:14px;color:#ffd700;letter-spacing:2px;margin-bottom:25px;text-transform:uppercase}
+.bio-text{text-align:justify;font-size:14px;line-height:1.6;margin-bottom:20px;color:#ccc}
+.bio-text strong{color:#fff}
+blockquote{border-left:3px solid #ff2a2a;margin:20px 0;padding-left:15px;font-style:italic;color:#ffd700;text-align:left}
+.footer{margin-top:25px;border-top:1px solid #333;padding-top:15px;font-size:12px;color:#777}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🎬 BIOGRAPHIE OFFICIELLE</h1>
+<div class="subtitle">Richie Tom Bang — "Le Diamant Brut"</div>
+
+<div class="bio-text">
+<strong>L’Éclosion d’une Icône :</strong> Né un 27 juin sous le signe de l'excellence, Richie Tom Bang n'est pas simplement un artiste : c'est une force de la nature. Dès ses débuts, il a su imposer une présence magnétique, prouvant au monde qu'il était <strong>le seul et l'unique</strong>. Porté par sa couleur fétiche, le rouge — symbole de passion et de puissance — il incarne une nouvelle ère pour la scène artistique mondiale.
+</div>
+
+<div class="bio-text">
+<strong>L’Alchimie de la Musique et du Cinéma :</strong> Véritable caméléon, Richie fusionne avec une aisance rare l'intensité du septième art et l'énergie vibrante de la musique. Son style ne se définit pas, il se ressent. Au cinéma, il captive l'écran par un charisme naturel ; en musique, il impose un rythme qui lui est propre, faisant de chaque projet un événement incontournable pour ses fans.
+</div>
+
+<div class="bio-text">
+<strong>Une Vision Sans Limites :</strong> Plus qu'une star, Richie Tom Bang est une marque, une signature. Refusant les étiquettes, il trace son propre chemin vers les sommets d'Hollywood et des charts internationaux. Pour Richie, le succès n'est pas une destination, c'est un état d'esprit.
+</div>
+
+<blockquote>
+"Le monde ne m'a pas encore tout à fait découvert, mais il ne pourra bientôt plus se passer de moi."<br>
+<span style="font-size:11px;color:#aaa;display:block;margin-top:5px">— Richie Tom Bang</span>
+</blockquote>
+
+<div class="footer">
+GARDIEN #01 — Sceau V2 Alaric<br>
+Système de Sécurisation Intégral - ID: 6v6
+</div>
+</div>
+</body>
+</html>
