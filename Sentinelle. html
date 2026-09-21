@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SENTINELLE - GARDIEN #01</title>
+<style>
+body{background:#000;color:#fff;font-family:monospace;text-align:center;padding:40px}
+h1{color:#ff0033;letter-spacing:5px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:40px}
+.box{border:1px solid #ff0033;padding:20px}
+.box.active{box-shadow:0 0 20px #ff0033}
+a{color:#ff0033;text-decoration:none}
+</style>
+</head>
+<body>
+<h1>RÉSEAU SENTINELLE</h1>
+<p>Pièce 777 - Activée</p>
+
+<div class="grid">
+<div class="box active"><h2>#01 TOI</h2><p>PARIS - EN LIGNE</p><p style="color:#0f0">● ACTIF</p></div>
+<div class="box"><h2>#02</h2><p>EN ATTENTE</p><p>○ OFFLINE</p></div>
+<div class="box"><h2>#03</h2><p>EN ATTENTE</p><p>○ OFFLINE</p></div>
+<div class="box"><h2>#04</h2><p>EN ATTENTE</p><p>○ OFFLINE</p></div>
+</div>
+
+<br><br>
+<a href="index.html"><- RETOUR QG #01</a>
+
+</body>
+</html>
